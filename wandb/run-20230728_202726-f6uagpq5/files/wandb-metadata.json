@@ -1,0 +1,69 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-07-28T12:27:28.137543",
+    "startedAt": "2023-07-28T12:27:26.206001",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model",
+        "yolov5n",
+        "--dataset",
+        "VOC",
+        "--data",
+        "dataset_seaship/data.yaml",
+        "--batch",
+        "64",
+        "--epochs",
+        "100",
+        "--weights",
+        "runs/train/yolov5n_light/weights/best.pt",
+        "--workers",
+        "8",
+        "--initial_rate",
+        "0.06",
+        "--initial_thres",
+        "6.",
+        "--topk",
+        "0.8",
+        "--exp",
+        "--cache",
+        "--name",
+        "yolov5n_light_prune"
+    ],
+    "state": "running",
+    "program": "D:\\yemu\\code\\python\\yolov5-prune-light\\yolov5-prune\\compress.py",
+    "codePath": "compress.py",
+    "host": "DESKTOP-43FH3VC",
+    "username": "admin",
+    "executable": "C:\\Users\\admin\\.conda\\envs\\mm200tor200cu118\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3200.0,
+        "min": 0.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 0.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "total": 1707.7285118103027,
+        "used": 217.60679244995117
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 127.72148132324219
+    }
+}

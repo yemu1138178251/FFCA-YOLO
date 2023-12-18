@@ -1,0 +1,40 @@
+                 from  n    params  module                                  arguments
+  0                -1  1      1760  models.common.Conv                      [3, 16, 6, 2, 2]
+  1                -1  1      4672  models.common.Conv                      [16, 32, 3, 2]
+  2                -1  1      2652  models.common.C3Ghost                   [32, 32, 1]
+  3                -1  1     18560  models.common.Conv                      [32, 64, 3, 2]
+  4                -1  2     10864  models.common.C3Ghost                   [64, 64, 2]
+  5                -1  1     73984  models.common.Conv                      [64, 128, 3, 2]
+  6                -1  3     43600  models.common.C3Ghost                   [128, 128, 3]
+  7                -1  1    295424  models.common.Conv                      [128, 256, 3, 2]
+  8                -1  1    143072  models.common.C3Ghost                   [256, 256, 1]
+  9                -1  1    164608  models.common.SPPF                      [256, 256, 5]
+ 10                -1  1     34624  models.common.GSConvns                  [256, 128, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  1     49664  models.common.VoVGSCSP                  [256, 128, False]
+ 14                -1  1      9120  models.common.GSConvns                  [128, 64, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  1     12544  models.common.VoVGSCSP                  [128, 64, False]
+ 18                -1  1     23456  models.common.GSConvns                  [64, 64, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  1     33280  models.common.VoVGSCSP                  [128, 128, False]
+ 21                -1  1     91968  models.common.GSConvns                  [128, 128, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  1    132096  models.common.VoVGSCSP                  [256, 256, False]
+ 24      [17, 20, 23]  1     14883  models.yolo.Detect                      [6, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [64, 128, 256]]
+Model summary: 301 layers, 1160831 parameters, 1160831 gradients, 2.8 GFLOPs
+2023-07-28 20:27:35,256 - Transferred 413/413 items from runs\train\yolov5n_light\weights\best.pt
+
+[34m[1mtrain: [39m[22mScanning D:\yemu\code\python\yolov5-prune-light\yolov5-prune\dataset_seaship\labels\train... 5040 images, 0 backgrounds, 0 corrupt: 100%|██████████| 5040/5040 [00:06<00:00, 779.30it/s]
+[34m[1mtrain: [39m[22mWARNING  Cache directory D:\yemu\code\python\yolov5-prune-light\yolov5-prune\dataset_seaship\labels is not writeable: [WinError 183] : 'D:\\yemu\\code\\python\\yolov5-prune-light\\yolov5-prune\\dataset_seaship\\labels\\train.cache.npy' -> 'D:\\yemu\\code\\python\\yolov5-prune-light\\yolov5-prune\\dataset_seaship\\labels\\train.cache'
+
+
+
+
+
+[34m[1mtrain: [39m[22mCaching images (3.2GB ram): 100%|██████████| 5040/5040 [00:09<00:00, 526.48it/s]
+[34m[1mval: [39m[22mScanning D:\yemu\code\python\yolov5-prune-light\yolov5-prune\dataset_seaship\labels\val... 560 images, 0 backgrounds, 0 corrupt: 100%|██████████| 560/560 [00:06<00:00, 82.99it/s]
+[34m[1mval: [39m[22mWARNING  Cache directory D:\yemu\code\python\yolov5-prune-light\yolov5-prune\dataset_seaship\labels is not writeable: [WinError 183] : 'D:\\yemu\\code\\python\\yolov5-prune-light\\yolov5-prune\\dataset_seaship\\labels\\val.cache.npy' -> 'D:\\yemu\\code\\python\\yolov5-prune-light\\yolov5-prune\\dataset_seaship\\labels\\val.cache'
+

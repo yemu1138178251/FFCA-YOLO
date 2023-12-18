@@ -1,0 +1,27 @@
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_setup.py:_flush():76] Configure stats pid to 12076
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_setup.py:_flush():76] Loading settings from C:\Users\admin\.config\wandb\settings
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_setup.py:_flush():76] Loading settings from D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\settings
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'compress.py', 'program': 'D:\\yemu\\code\\python\\yolov5-prune-light\\yolov5-prune\\compress.py'}
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_setup.py:_flush():76] Applying login settings: {'login_timeout': 30}
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_init.py:_log_setup():507] Logging user logs to D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\logs\debug.log
+2023-07-28 20:27:26,206 INFO    MainThread:12076 [wandb_init.py:_log_setup():508] Logging internal logs to D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\logs\debug-internal.log
+2023-07-28 20:27:26,207 INFO    MainThread:12076 [wandb_init.py:init():547] calling init triggers
+2023-07-28 20:27:26,207 INFO    MainThread:12076 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'model': 'yolov5n', 'dataset': 'VOC', 'compression': 'global', 'prunemethod': 'L1', 'pruned': False, 'round': 0, 'topk': 0.8, 'exp': True, 'initial_rate': 0.06, 'initial_thres': 6.0, 'rate_slope': 0.0, 'thres_slope': 0.0, 'weights': 'runs/train/yolov5n_light/weights/best.pt', 'pruned_model': '', 'cfg': '', 'data': 'dataset_seaship/data.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 100, 'batch_size': 64, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'evolve': None, 'bucket': '', 'cache': 'ram', 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'workers': 8, 'project': 'runs/train', 'entity': None, 'name': 'yolov5n_light_prune', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'local_rank': -1, 'freeze': 0, 'patience': 100, 'noplots': False, 'part': ['model.0.', 'model.1.', 'model.2.', 'model.3.', 'model.4.', 'model.5.', 'model.6.', 'model.7.', 'model.8.', 'model.9.', 'model.10.', 'model.11.', 'model.12.', 'model.13.', 'model.14.', 'model.15.', 'model.16.', 'model.17.', 'model.18.', 'model.19.', 'model.20.', 'model.21.', 'model.22.', 'model.23.'], 'save_dir': 'runs\\train\\yolov5n_light_prune4'}
+2023-07-28 20:27:26,207 INFO    MainThread:12076 [wandb_init.py:init():596] starting backend
+2023-07-28 20:27:26,207 INFO    MainThread:12076 [wandb_init.py:init():600] setting up manager
+2023-07-28 20:27:26,209 INFO    MainThread:12076 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-07-28 20:27:26,212 INFO    MainThread:12076 [wandb_init.py:init():606] backend started and connected
+2023-07-28 20:27:26,222 INFO    MainThread:12076 [wandb_init.py:init():703] updated telemetry
+2023-07-28 20:27:26,222 INFO    MainThread:12076 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-07-28 20:27:27,242 INFO    MainThread:12076 [wandb_run.py:_on_init():2176] communicating current version
+2023-07-28 20:27:28,094 INFO    MainThread:12076 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.15.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-07-28 20:27:28,095 INFO    MainThread:12076 [wandb_init.py:init():787] starting run threads in backend
+2023-07-28 20:27:34,066 INFO    MainThread:12076 [wandb_run.py:_console_start():2155] atexit reg
+2023-07-28 20:27:34,066 INFO    MainThread:12076 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-07-28 20:27:34,067 INFO    MainThread:12076 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-07-28 20:27:34,067 INFO    MainThread:12076 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-07-28 20:27:34,067 INFO    MainThread:12076 [wandb_init.py:init():828] run started, returning control to user process

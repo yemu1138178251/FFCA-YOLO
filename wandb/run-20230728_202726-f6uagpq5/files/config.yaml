@@ -1,0 +1,241 @@
+wandb_version: 1
+
+model:
+  desc: null
+  value: yolov5n
+dataset:
+  desc: null
+  value: VOC
+compression:
+  desc: null
+  value: global
+prunemethod:
+  desc: null
+  value: L1
+pruned:
+  desc: null
+  value: false
+round:
+  desc: null
+  value: 0
+topk:
+  desc: null
+  value: 0.8
+exp:
+  desc: null
+  value: true
+initial_rate:
+  desc: null
+  value: 0.06
+initial_thres:
+  desc: null
+  value: 6.0
+rate_slope:
+  desc: null
+  value: 0.0
+thres_slope:
+  desc: null
+  value: 0.0
+weights:
+  desc: null
+  value: runs/train/yolov5n_light/weights/best.pt
+pruned_model:
+  desc: null
+  value: ''
+cfg:
+  desc: null
+  value: ''
+data:
+  desc: null
+  value: dataset_seaship/data.yaml
+hyp:
+  desc: null
+  value:
+    lr0: 0.01
+    lrf: 0.2
+    momentum: 0.937
+    weight_decay: 0.0005
+    warmup_epochs: 3.0
+    warmup_momentum: 0.8
+    warmup_bias_lr: 0.1
+    box: 0.05
+    cls: 0.5
+    cls_pw: 1.0
+    obj: 1.0
+    obj_pw: 1.0
+    iou_t: 0.2
+    anchor_t: 4.0
+    fl_gamma: 0.0
+    hsv_h: 0.015
+    hsv_s: 0.7
+    hsv_v: 0.4
+    degrees: 0.0
+    translate: 0.1
+    scale: 0.5
+    shear: 0.0
+    perspective: 0.0
+    flipud: 0.0
+    fliplr: 0.5
+    mosaic: 1.0
+    mixup: 0.0
+    copy_paste: 0.0
+epochs:
+  desc: null
+  value: 100
+batch_size:
+  desc: null
+  value: 64
+imgsz:
+  desc: null
+  value: 640
+rect:
+  desc: null
+  value: false
+resume:
+  desc: null
+  value: false
+nosave:
+  desc: null
+  value: false
+noval:
+  desc: null
+  value: false
+noautoanchor:
+  desc: null
+  value: false
+evolve:
+  desc: null
+  value: null
+bucket:
+  desc: null
+  value: ''
+cache:
+  desc: null
+  value: ram
+image_weights:
+  desc: null
+  value: false
+device:
+  desc: null
+  value: ''
+multi_scale:
+  desc: null
+  value: false
+single_cls:
+  desc: null
+  value: false
+adam:
+  desc: null
+  value: false
+sync_bn:
+  desc: null
+  value: false
+workers:
+  desc: null
+  value: 8
+project:
+  desc: null
+  value: runs/train
+entity:
+  desc: null
+  value: null
+name:
+  desc: null
+  value: yolov5n_light_prune
+exist_ok:
+  desc: null
+  value: false
+quad:
+  desc: null
+  value: false
+linear_lr:
+  desc: null
+  value: false
+label_smoothing:
+  desc: null
+  value: 0.0
+upload_dataset:
+  desc: null
+  value: false
+bbox_interval:
+  desc: null
+  value: -1
+save_period:
+  desc: null
+  value: -1
+artifact_alias:
+  desc: null
+  value: latest
+local_rank:
+  desc: null
+  value: -1
+freeze:
+  desc: null
+  value: 0
+patience:
+  desc: null
+  value: 100
+noplots:
+  desc: null
+  value: false
+part:
+  desc: null
+  value:
+  - model.0.
+  - model.1.
+  - model.2.
+  - model.3.
+  - model.4.
+  - model.5.
+  - model.6.
+  - model.7.
+  - model.8.
+  - model.9.
+  - model.10.
+  - model.11.
+  - model.12.
+  - model.13.
+  - model.14.
+  - model.15.
+  - model.16.
+  - model.17.
+  - model.18.
+  - model.19.
+  - model.20.
+  - model.21.
+  - model.22.
+  - model.23.
+save_dir:
+  desc: null
+  value: runs\train\yolov5n_light_prune4
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.16
+    cli_version: 0.15.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1690547246.212978
+    t:
+      1:
+      - 1
+      - 41
+      - 49
+      - 55
+      - 63
+      2:
+      - 1
+      - 41
+      - 49
+      - 55
+      - 63
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.8.16
+      5: 0.15.4
+      8:
+      - 3
+      - 5

@@ -1,0 +1,98 @@
+2023-07-28 20:27:26,212 INFO    StreamThr :10608 [internal.py:wandb_internal():86] W&B internal server running at pid: 10608, started at: 2023-07-28 20:27:26.212978
+2023-07-28 20:27:26,213 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status
+2023-07-28 20:27:26,223 INFO    WriterThread:10608 [datastore.py:open_for_write():85] open: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\run-f6uagpq5.wandb
+2023-07-28 20:27:26,223 DEBUG   SenderThread:10608 [sender.py:send():369] send: header
+2023-07-28 20:27:26,223 DEBUG   SenderThread:10608 [sender.py:send():369] send: run
+2023-07-28 20:27:26,230 INFO    SenderThread:10608 [sender.py:_maybe_setup_resume():737] checking resume status for None/YOLOv5/f6uagpq5
+2023-07-28 20:27:27,234 INFO    SenderThread:10608 [dir_watcher.py:__init__():211] watching files in: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files
+2023-07-28 20:27:27,234 INFO    SenderThread:10608 [sender.py:_start_run_threads():1100] run started: f6uagpq5 with start time 1690547246.212978
+2023-07-28 20:27:27,238 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: summary_record
+2023-07-28 20:27:27,239 INFO    SenderThread:10608 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-28 20:27:27,242 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: check_version
+2023-07-28 20:27:27,242 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: check_version
+2023-07-28 20:27:28,099 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: run_start
+2023-07-28 20:27:28,113 DEBUG   HandlerThread:10608 [system_info.py:__init__():31] System info init
+2023-07-28 20:27:28,113 DEBUG   HandlerThread:10608 [system_info.py:__init__():46] System info init done
+2023-07-28 20:27:28,113 INFO    HandlerThread:10608 [system_monitor.py:start():181] Starting system monitor
+2023-07-28 20:27:28,113 INFO    SystemMonitor:10608 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-28 20:27:28,113 INFO    HandlerThread:10608 [system_monitor.py:probe():201] Collecting system info
+2023-07-28 20:27:28,116 INFO    SystemMonitor:10608 [interfaces.py:start():190] Started cpu monitoring
+2023-07-28 20:27:28,116 INFO    SystemMonitor:10608 [interfaces.py:start():190] Started disk monitoring
+2023-07-28 20:27:28,116 INFO    SystemMonitor:10608 [interfaces.py:start():190] Started gpu monitoring
+2023-07-28 20:27:28,120 INFO    SystemMonitor:10608 [interfaces.py:start():190] Started memory monitoring
+2023-07-28 20:27:28,124 INFO    SystemMonitor:10608 [interfaces.py:start():190] Started network monitoring
+2023-07-28 20:27:28,136 DEBUG   HandlerThread:10608 [system_info.py:probe():195] Probing system
+2023-07-28 20:27:28,137 DEBUG   HandlerThread:10608 [system_info.py:probe():240] Probing system done
+2023-07-28 20:27:28,137 DEBUG   HandlerThread:10608 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-07-28T12:27:28.137543', 'startedAt': '2023-07-28T12:27:26.206001', 'docker': None, 'cuda': None, 'args': ('--model', 'yolov5n', '--dataset', 'VOC', '--data', 'dataset_seaship/data.yaml', '--batch', '64', '--epochs', '100', '--weights', 'runs/train/yolov5n_light/weights/best.pt', '--workers', '8', '--initial_rate', '0.06', '--initial_thres', '6.', '--topk', '0.8', '--exp', '--cache', '--name', 'yolov5n_light_prune'), 'state': 'running', 'program': 'D:\\yemu\\code\\python\\yolov5-prune-light\\yolov5-prune\\compress.py', 'codePath': 'compress.py', 'host': 'DESKTOP-43FH3VC', 'username': 'admin', 'executable': 'C:\\Users\\admin\\.conda\\envs\\mm200tor200cu118\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3200.0, 'min': 0.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 0.0, 'max': 3200.0}], 'disk': {'total': 1707.7285118103027, 'used': 217.60679244995117}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 127.72148132324219}}
+2023-07-28 20:27:28,137 INFO    HandlerThread:10608 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-28 20:27:28,137 INFO    HandlerThread:10608 [system_monitor.py:probe():214] Publishing system info
+2023-07-28 20:27:28,137 DEBUG   HandlerThread:10608 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-28 20:27:28,137 DEBUG   HandlerThread:10608 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-28 20:27:28,137 DEBUG   HandlerThread:10608 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-28 20:27:28,242 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_created():272] file/dir created: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\conda-environment.yaml
+2023-07-28 20:27:28,243 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_created():272] file/dir created: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\requirements.txt
+2023-07-28 20:27:28,243 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_created():272] file/dir created: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\wandb-summary.json
+2023-07-28 20:27:34,056 DEBUG   HandlerThread:10608 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-28 20:27:34,056 INFO    HandlerThread:10608 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-28 20:27:34,062 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:27:34,062 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-28 20:27:34,062 DEBUG   SenderThread:10608 [sender.py:send():369] send: files
+2023-07-28 20:27:34,062 INFO    SenderThread:10608 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-28 20:27:34,066 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-28 20:27:34,066 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: stop_status
+2023-07-28 20:27:34,275 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\conda-environment.yaml
+2023-07-28 20:27:34,275 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_created():272] file/dir created: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\wandb-metadata.json
+2023-07-28 20:27:34,341 DEBUG   SenderThread:10608 [sender.py:send():369] send: telemetry
+2023-07-28 20:27:35,289 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_created():272] file/dir created: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:37,304 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:37,325 INFO    wandb-upload_0:10608 [upload_job.py:push():133] Uploaded file C:\Users\admin\AppData\Local\Temp\tmp_ce4fod3wandb\g27mmuph-wandb-metadata.json
+2023-07-28 20:27:37,536 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:27:42,733 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:27:43,337 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:45,350 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:47,366 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:47,825 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:27:49,086 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-28 20:27:49,086 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: stop_status
+2023-07-28 20:27:49,369 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:51,392 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:53,311 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:27:53,404 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:55,417 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:27:58,343 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:27:59,442 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\config.yaml
+2023-07-28 20:28:03,695 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:04,090 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-28 20:28:04,090 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: stop_status
+2023-07-28 20:28:09,430 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:14,472 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:19,106 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-28 20:28:19,106 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: stop_status
+2023-07-28 20:28:20,428 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:25,481 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:28,130 DEBUG   SystemMonitor:10608 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-28 20:28:28,131 DEBUG   SenderThread:10608 [sender.py:send():369] send: stats
+2023-07-28 20:28:31,148 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:34,116 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-28 20:28:34,117 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: stop_status
+2023-07-28 20:28:36,490 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:41,510 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:46,552 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:49,129 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-28 20:28:49,130 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: stop_status
+2023-07-28 20:28:51,673 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:52,819 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:28:56,724 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:28:58,137 DEBUG   SenderThread:10608 [sender.py:send():369] send: stats
+2023-07-28 20:28:58,863 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:29:00,883 INFO    Thread-12 :10608 [dir_watcher.py:_on_file_modified():289] file/dir modified: D:\yemu\code\python\yolov5-prune-light\yolov5-prune\wandb\run-20230728_202726-f6uagpq5\files\output.log
+2023-07-28 20:29:02,133 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:29:04,149 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-28 20:29:04,150 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: stop_status
+2023-07-28 20:29:07,494 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:29:12,535 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:29:17,575 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:29:19,162 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-28 20:29:19,162 DEBUG   SenderThread:10608 [sender.py:send_request():396] send_request: stop_status
+2023-07-28 20:29:23,482 DEBUG   HandlerThread:10608 [handler.py:handle_request():144] handle_request: status_report
+2023-07-28 20:29:28,147 DEBUG   SenderThread:10608 [sender.py:send():369] send: stats
