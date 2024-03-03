@@ -1046,15 +1046,6 @@ class C3_Faster(C3):
 
 
 class SCAM(nn.Module):
-    """
-    Context Aggregation Block.
-    Args:
-        in_channels (int): Number of input channels.
-        reduction (int, optional): Channel reduction ratio. Default: 1.
-        conv_cfg (dict or None, optional): Config dict for the convolution
-            layer. Default: None.
-    """
-
     def __init__(self, in_channels, reduction=1):
         super(SCAM, self).__init__()
         self.in_channels = in_channels
